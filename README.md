@@ -8,3 +8,5 @@ Team Members: Saugat Bikram Shah
               Shreeja Shrestha
               Samir Dangol
               Saddiccha Shrestha
+              Rajan Oli
+              
