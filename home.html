@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Sync - Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="health.html">Health</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </aside>
+
+    <div class="content">
+        <header>
+            <nav>
+                <h1>Life Sync</h1>
+            </nav>
+            <div class="welcome-message">
+                <h2>Welcome, <span id="username"></span>!</h2>
+            </div>
+        </header>
+
+        <section class="entry-form">
+            <h2>Log Your Daily Activities</h2>
+            <form id="entry-form">
+                <label for="activity">Activity:</label>
+                <input type="text" id="activity" name="activity" required>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+
+                <button type="submit" class="form-button">Save Entry</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Daily Life Tracker. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>

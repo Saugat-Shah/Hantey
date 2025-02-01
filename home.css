@@ -1,0 +1,182 @@
+/* home.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: #1abc9c;
+}
+
+/* Main Content */
+.content {
+    margin-left: 270px;
+    padding: 30px;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#profile-dropdown {
+    display: none;
+    background-color: #ecf0f1;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#profile-dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+#profile-dropdown a:hover {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+/* Welcome Message */
+.welcome-message {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.welcome-message span {
+    color: #1abc9c;
+}
+
+/* Entry Form */
+.entry-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.entry-form h2 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.entry-form label {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+.entry-form input, .entry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.entry-form button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entry-form button:hover {
+    background-color: #16a085;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7f8c8d;
+}
+
+footer a:hover {
+    color: #2c3e50;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2><a href="home.html">Life Sync</a></h2>
+        <ul>
+            <li><a href="home.html">Dashboard</a></li>
+            <li><a href="health.html">Health</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </div>
+
+    <section id="settings">
+        <h1>Settings</h1>
+        <div class="settings-container">
+            <form>
+                <!-- Theme Selection -->
+                <label for="theme">Select Theme:</label>
+                <select id="theme" name="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+
+                <!-- Update Personal Information -->
+                <h2 id="pinfo">Personal Information</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                <!-- Notifications -->
+                <h2>Notifications</h2>
+                <label>
+                    <input type="checkbox" name="notifications" value="email"> Email Notifications
+                </label><br>
+                <label>
+                    <input type="checkbox" name="notifications" value="sms"> SMS Notifications
+                </label><br>
+
+                <!-- Save Button -->
+                <button type="submit">Save Settings</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Life Sync</p>
+    </footer>
+
+    <script src="settings.js"></script>
+</body>
+</html>
