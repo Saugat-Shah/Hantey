@@ -1,5 +1,5 @@
 # Hackathon
-Repository for Hackathon!!!
+Repository for Hackathon!
 
 Location: Room 154
 Team Members: Saugat Bikram Shah
